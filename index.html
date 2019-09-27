@@ -29,7 +29,8 @@
     ================================================== -->
     <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
     <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
+    <link rel="stylesheet" href="./dark-mode-bootstrap/dark-mode.css">
+    <link rel="stylesheet" href="./dark-mode-bootstrap/custom_forms.css">
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
@@ -48,6 +49,7 @@
     <![endif]-->
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>	
+     
 	
   </head>
   <body>
@@ -77,6 +79,7 @@
             <li><a href="#tf-testimonials" class="page-scroll">Achievements</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
           </ul>
+          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -92,6 +95,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- About Me Section
     ==========================================-->
@@ -100,7 +104,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <br> <br> <br> <br>
-                    <img src="img/ag_2019_bnwc.jpg" class="img-responsive">
+                    <img src="img/ag_2019_bnwc_tp.png" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
@@ -638,7 +642,13 @@
                     <li><a href="https://twitter.com/Ashygoyal" target=_blank title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://www.reverbnation.com/retributionband" target=_blank title="Retribution-Band"><i class="fa fa-music"></i></a></li>
 					<li><a href="tel:+919620954300" title="Call me up!"><i class="fa fa-phone"></i></a></li>
-					<li><a href="pages/CV_Mar2019.pdf" target=_blank title="My Resume"><i class="fa fa-file-text"></i></a></li>
+                    <li><a href="pages/CV_Mar2019.pdf" target=_blank title="My Resume"><i class="fa fa-file-text"></i></a></li>
+                    <li>
+                            <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                                    <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                                </div>
+                    </li>
 					
                 </ul>
             </div>
@@ -654,6 +664,7 @@
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
     <script src="js/owl.carousel.js"></script>
+    <script src="./dark-mode-bootstrap/dark-mode-switch.min.js"></script>
 
     <!-- Javascripts
     ================================================== -->
