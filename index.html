@@ -29,7 +29,8 @@
     ================================================== -->
     <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
     <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
+    <link rel="stylesheet" href="./dark-mode-bootstrap/dark-mode.css">
+    <link rel="stylesheet" href="./dark-mode-bootstrap/custom_forms.css">
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
@@ -48,6 +49,7 @@
     <![endif]-->
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>	
+     
 	
   </head>
   <body>
@@ -77,6 +79,7 @@
             <li><a href="#tf-testimonials" class="page-scroll">Achievements</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
           </ul>
+          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -92,6 +95,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- About Me Section
     ==========================================-->
@@ -100,7 +104,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <br> <br> <br> <br>
-                    <img src="img/ag_2019_bnwc.jpg" class="img-responsive">
+                    <img src="img/ag_2019_bnwc_tp.png" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
@@ -110,11 +114,11 @@
                             <hr>
                             <div class="clearfix"></div>
                         </div>
-                        <p class="intro">I am a May' 2014 passout for Bachelors in Computer Science Engineering, working as a Front-end Developer at Moonraft Innovation Labs, Bangalore since April' 2018.  </p>
+                        <p class="intro">I am a May' 2014 passout for Bachelors in Computer Science Engineering, working as a Senior Software Engineer at Tangoe, Bangalore since July' 2019.  </p>
                         <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Current Employer</strong> - <em><a href="https://moonraft.com/#!/" target=_blank>Moonraft Innovation Labs</a>, <a href="https://goo.gl/maps/5odJedVM3e12" target=_blank>Bengaluru</a></em>
+                                <strong>Current Employer</strong> - <em><a href="https://www.tangoe.com/" target=_blank>Tangoe</a>, <a href="https://goo.gl/maps/5odJedVM3e12" target=_blank>Bengaluru</a></em>
                             </li>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
@@ -641,6 +645,10 @@
 					<li><a href="pages/DesignCV.pdf" target=_blank title="My Resume"><i class="fa fa-file-text"></i></a></li>
 					
                 </ul>
+                <label class="custom-control custom-switch switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                    </label>
             </div>
         </div>
     </nav>
@@ -654,6 +662,7 @@
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
     <script src="js/owl.carousel.js"></script>
+    <script src="./dark-mode-bootstrap/dark-mode-switch.min.js"></script>
 
     <!-- Javascripts
     ================================================== -->
